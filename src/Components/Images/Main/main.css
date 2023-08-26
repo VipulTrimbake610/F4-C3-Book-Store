@@ -1,0 +1,133 @@
+.bannerDiv{
+    background-color: #242121;
+    min-height: 300px;
+    padding: 50px;
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+}
+.banner{
+    background-color: #415F71;
+    min-height: 220px;
+    display: flex;
+    
+}
+.banner img{
+    width: 250px;
+}
+.banner .addOns{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 20px;
+    /* margin-top: 20px; */
+    row-gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.addOns .titleDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.titleDiv .title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.author{
+    font-size: 16px;
+    font-weight: bold;
+    color: #A0AFB8;
+}
+.banner .desc{
+    color: #A0AFB8;
+}
+.publishOn{
+    margin-top: 15px;
+    color: #A0AFB8;
+    font-size: 17px;
+}
+
+.addOns .smDetails{
+    display: flex;
+    column-gap:30px;
+    color: #E2E2E2;
+}
+.banner .btnDiv{
+    align-self: flex-end;
+}
+.banner button{
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: #A0AFB8;
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+}
+.banner button:hover{
+    background-color: lightgray;
+    color: black;
+}
+main{
+    background-color: #242121;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 40px;
+    column-gap: 60px;
+    row-gap: 35px;
+   transition: all;
+   transition-duration: 1s;
+}
+
+main .book{
+    display: flex;
+
+    width: 200px;
+    height: 240px;
+    
+    transition: all;
+    transition-duration: 1s;
+    border-radius:5px;
+}
+
+.book img{
+    width: 180px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sideInfo{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 10px; */
+    /* column-gap: 20px; */
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    color: white;
+    overflow: auto;
+}
+
+.sideInfo .title{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.sideInfo .desc{
+    font-size: 13px;
+    
+    margin-top: 10px;
+}
+
+.sideInfo button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    align-self: center;
+    transition: all;
+    transition-duration: 1s;
+}
